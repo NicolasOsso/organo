@@ -1,0 +1,25 @@
+:root{
+    --azul-botao: #6278F7;
+    --branco: #FFFFFF;
+    --verde: #95FFd4;
+}
+
+
+.formulario__botao{
+    padding: 32px;
+    margin-top: 1em;
+
+    cursor: pointer;
+    
+    border-radius: 10px;
+    border: none;
+
+    background-color: var(--azul-botao);
+    color: var(--branco);
+
+    font-weight: 700;
+    font-size: 18px;
+}
+.formulario__botao:hover{
+    color: var(--verde);
+}
